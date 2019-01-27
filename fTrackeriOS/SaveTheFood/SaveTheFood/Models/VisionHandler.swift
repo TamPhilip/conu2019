@@ -59,10 +59,23 @@ class VisionHandler {
                                 return
                             }
                         
-                            guard let highestLabel = results.first else {
-                                print("Highest failed")
-                                return
+                            var highestLabel: [String: Any] = [:]
+                            for res in results {
+                                guard let description = res["description"] as? String else {return}
+                                if description.lowercased().elementsEqual("apple") {
+                                    highestLabel = res
+                                    break
+                                } else if description.lowercased().elementsEqual("clementine") {
+                                    highestLabel = res
+                                    break
+                                } else if description.lowercased().elementsEqual("banana"){
+                                    highestLabel = res
+                                    break
+                                } else {
+                                    highestLabel = results.first ?? [:]
+                                }
                             }
+                            
                             
                             
                             FirebaseHandler.shared.sendToFirebase(data: highestLabel, { (success, error) in

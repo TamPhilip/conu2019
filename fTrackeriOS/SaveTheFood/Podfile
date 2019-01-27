@@ -12,6 +12,7 @@ target 'SaveTheFood' do
   pod 'Firebase/Firestore'
   pod 'SwiftyJSON'
   pod 'ChameleonFramework'
+  pod 'SVProgressHUD'
 
   target 'SaveTheFoodTests' do
     inherit! :search_paths

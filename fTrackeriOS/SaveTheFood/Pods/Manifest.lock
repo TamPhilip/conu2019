@@ -112,6 +112,7 @@ PODS:
   - nanopb/decode (0.3.901)
   - nanopb/encode (0.3.901)
   - Protobuf (3.6.1)
+  - SVProgressHUD (2.2.5)
   - SwiftyJSON (4.2.0)
 
 DEPENDENCIES:
@@ -119,6 +120,7 @@ DEPENDENCIES:
   - ChameleonFramework
   - Firebase
   - Firebase/Firestore
+  - SVProgressHUD
   - SwiftyJSON
 
 SPEC REPOS:
@@ -142,6 +144,7 @@ SPEC REPOS:
     - leveldb-library
     - nanopb
     - Protobuf
+    - SVProgressHUD
     - SwiftyJSON
 
 SPEC CHECKSUMS:
@@ -164,8 +167,9 @@ SPEC CHECKSUMS:
   leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
   nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
   Protobuf: 1eb9700044745f00181c136ef21b8ff3ad5a0fd5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
 
-PODFILE CHECKSUM: 61461a4afd9c6e17fa1bf275108d6afc478dd631
+PODFILE CHECKSUM: f733a3501b5621da9e045e6905e39c199fe5822c
 
 COCOAPODS: 1.5.3

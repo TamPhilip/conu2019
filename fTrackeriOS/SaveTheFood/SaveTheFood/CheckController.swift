@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SVProgressHUD
 
 class CheckController: UIViewController {
 
@@ -22,21 +23,13 @@ class CheckController: UIViewController {
     }
     
     @IBAction func runProcess(_ sender: Any) {
+        SVProgressHUD.show()
         guard let image = image else { return }
         guard let data = image.jpegData(compressionQuality: 1.0) else { return }
         VisionHandler.shared.detect(data: data.base64EncodedString()) { label in
-            self.presentAlert(label: label ?? "")
+            SVProgressHUD.dismiss()
+            SVProgressHUD.showSuccess(withStatus: "The item: \(label ?? "") has been added to your history!")
+            SVProgressHUD.dismiss(withDelay: 3)
         }
     }
-
-    func presentAlert(label: String) {
-        let alert = UIAlertController(title: "Sent", message: "The item: \(label) has been added to your history!", preferredStyle: .alert)
-        let action = UIAlertAction(title: "Dismiss",style: .cancel, handler: { (_) in
-            
-        })
-        alert.addAction(action)
-        self.present(alert, animated: true, completion: nil)
-    }
-    
-
 }
