@@ -30,6 +30,7 @@
         android:layout_margin="10dp"
         android:scaleType="center"
         android:clickable="true"
+        android:onClick="camClick"
 
         app:srcCompat="@drawable/ic_menu_camera" />
 

@@ -21,14 +21,14 @@ import java.util.Arrays;
 public class Data extends AppCompatActivity {
 
     //ProgressBar pB1 = (ProgressBar) findViewById(R.id.pBar1);
-    int prog = 1;
+    int prog = 5;
 
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_data);
-        get_json();
+
 
         ProgressBar pB1 = (ProgressBar) findViewById(R.id.pBar1);
 
@@ -59,40 +59,7 @@ public class Data extends AppCompatActivity {
         pB1.setProgress(prog);
     }
 
-    ArrayList<String> numberlist = new ArrayList<>();
 
-    public void get_json() {
-        String json;
-        try {
-            InputStream is = getAssets().open("expiryJSON.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-
-            json = new String(buffer,"UTF-8");
-            JSONArray jsonArray = new JSONArray(json);
-
-            for(int i = 0; i<jsonArray.length();i++){
-                JSONObject obj = jsonArray.getJSONObject(i);
-                if(obj.getString("Food Product").equals("Bananas")){
-                    String Time = obj.getString("Refrigerator Storage");
-                    numberlist.add(Time);
-                }
-            }
-
-            String Times = numberlist.toString();
-            Times = Times.substring(1,Times.length()-1);
-
-            Toast.makeText(getApplicationContext(),Times,Toast.LENGTH_LONG).show();
-
-
-        } catch (IOException e){
-            e.printStackTrace();
-        } catch(JSONException e){
-
-        }
-    }
 
 
 }

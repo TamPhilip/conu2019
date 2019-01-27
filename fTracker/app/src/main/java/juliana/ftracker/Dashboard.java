@@ -25,14 +25,15 @@ public class Dashboard extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        /*FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                        .setAction("Action", null).show();
+                //Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
+                        //.setAction("Action", null).show();
+                startActivity(new Intent(Dashboard.this, Cam.class));
             }
-        });
+        });*/
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -42,6 +43,12 @@ public class Dashboard extends AppCompatActivity
 
         NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    public void camClick(View v)
+    {
+        //Toast.makeText(this, "Clicked on Button", Toast.LENGTH_LONG).show();
+        startActivity(new Intent(Dashboard.this, Cam.class));
     }
 
     @Override
@@ -103,7 +110,7 @@ public class Dashboard extends AppCompatActivity
 
     public void onClickBtn(View v)
     {
-        Toast.makeText(this, "Clicked on Button", Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, "Clicked on Button", Toast.LENGTH_LONG).show();
         startActivity(new Intent(Dashboard.this, MainActivity.class));
     }
 }
