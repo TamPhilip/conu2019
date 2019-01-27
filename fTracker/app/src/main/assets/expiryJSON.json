@@ -1,0 +1,827 @@
+[
+ {
+   "Food Product": "Butter or margarine",
+   "Refrigerator Storage": "1-3 months",
+   "Freezer Storage": "6-9 months"
+ },
+ {
+   "Food Product": "Buttermilk",
+   "Refrigerator Storage": "1-2 weeks",
+   "Freezer Storage": "Freezes poorly"
+ },
+ {
+   "Food Product": "Cheese spread, opened",
+   "Refrigerator Storage": "2 weeks",
+   "Freezer Storage": "Freezes poorly"
+ },
+ {
+   "Food Product": "Condensed milk, opened",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "1 month"
+ },
+ {
+   "Food Product": "Cottage or farmer’s cheese",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "Freezes poorly"
+ },
+ {
+   "Food Product": "Cream, half and half",
+   "Refrigerator Storage": "3-4 days",
+   "Freezer Storage": "4 months"
+ },
+ {
+   "Food Product": "Cream cheese",
+   "Refrigerator Storage": "2 weeks",
+   "Freezer Storage": "Freezes poorly"
+ },
+ {
+   "Food Product": "Evaporated milk, opened",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "Freezes poorly"
+ },
+ {
+   "Food Product": "Fluid milk",
+   "Refrigerator Storage": "5-7 days after sell-by date",
+   "Freezer Storage": "1-3 months"
+ },
+ {
+   "Food Product": "Hard cheese",
+   "Refrigerator Storage": "6 months(unopened), 3-4 weeks (opened)",
+   "Freezer Storage": "6 months"
+ },
+ {
+   "Food Product": "Ice cream and sherbet",
+   "Refrigerator Storage": "Do not refrigerate",
+   "Freezer Storage": "2 months"
+ },
+ {
+   "Food Product": "Nonfat Dry Milk (NFDM)",
+   "Refrigerator Storage": "5-6 months",
+   "Freezer Storage": "10-12 months"
+ },
+ {
+   "Food Product": "Processed cheese",
+   "Refrigerator Storage": "3-4 weeks",
+   "Freezer Storage": "4 months"
+ },
+ {
+   "Food Product": "Pudding",
+   "Refrigerator Storage": "2 days after opening",
+   "Freezer Storage": "Freezes poorly"
+ },
+ {
+   "Food Product": "Reconstituted NFDM",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "Freezes poorly"
+ },
+ {
+   "Food Product": "Sour cream",
+   "Refrigerator Storage": "7-21 days",
+   "Freezer Storage": "Freezes poorly"
+ },
+ {
+   "Food Product": "Whipped cream",
+   "Refrigerator Storage": "2-3 hours",
+   "Freezer Storage": "1 month"
+ },
+ {
+   "Food Product": "Whipping cream",
+   "Refrigerator Storage": "10 days",
+   "Freezer Storage": "2 months"
+ },
+ {
+   "Food Product": "Yogurt",
+   "Refrigerator Storage": "1 week after sell-by date",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Fresh in shell",
+   "Refrigerator Storage": "3-5 weeks",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Raw yolks, whites",
+   "Refrigerator Storage": "2-4 days",
+   "Freezer Storage": "1 year"
+ },
+ {
+   "Food Product": "Liquid pasteurized eggs, egg substitutes",
+   "Refrigerator Storage": "3 days (opened)",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Hard cooked",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Roasts and steaks",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "6-12 months"
+ },
+ {
+   "Food Product": "Chops",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "4-6 months"
+ },
+ {
+   "Food Product": "Ground and stew meats",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "3-4 months"
+ },
+ {
+   "Food Product": "Bacon",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "1 month"
+ },
+ {
+   "Food Product": "Canned ham",
+   "Refrigerator Storage": "3-5 months (opened)",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Corned beef, in pouch",
+   "Refrigerator Storage": "5-7 days",
+   "Freezer Storage": "1 month, drained"
+ },
+ {
+   "Food Product": "Ham, slices (fully cooked)",
+   "Refrigerator Storage": "3-4 days",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Ham, half (fully cooked)",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Ham, whole (fully cooked)",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Hotdogs",
+   "Refrigerator Storage": "1 week (opened)",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Sausage",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Smoked breakfast links, patties",
+   "Refrigerator Storage": "7 days",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Organ meats",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "3-4 months"
+ },
+ {
+   "Food Product": "Lunch meats",
+   "Refrigerator Storage": "3-5 days (opened)",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Vacuum-packed dinners with USDA seal",
+   "Refrigerator Storage": "2 weeks (unopened)",
+   "Freezer Storage": "Do not freeze"
+ },
+ {
+   "Food Product": "Cooked meats, casseroles, soups, stews",
+   "Refrigerator Storage": "3-4 days",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Gravy and meat broth",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Chicken or turkey, whole",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "1 year"
+ },
+ {
+   "Food Product": "Chicken or turkey, pieces",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "9 months"
+ },
+ {
+   "Food Product": "Ground poultry and giblets",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "3-4 months"
+ },
+ {
+   "Food Product": "Duck, goose, game birds",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "9 months"
+ },
+ {
+   "Food Product": "Fried or boiled chicken",
+   "Refrigerator Storage": "3-4 days",
+   "Freezer Storage": "4 months"
+ },
+ {
+   "Food Product": "Cooked poultry casseroles",
+   "Refrigerator Storage": "3-4 days",
+   "Freezer Storage": "4-6 months"
+ },
+ {
+   "Food Product": "Cooked poultry with broth or gravy",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "6 months"
+ },
+ {
+   "Food Product": "Nuggets or patties",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "1-3 months"
+ },
+ {
+   "Food Product": "Lean Fish - cod, flounder,",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "6 months"
+ },
+ {
+   "Food Product": "haddock, halibut, pollack, ocean",
+   "Refrigerator Storage": "",
+   "Freezer Storage": ""
+ },
+ {
+   "Food Product": "perch, rock fish, sea trout, sole",
+   "Refrigerator Storage": "",
+   "Freezer Storage": ""
+ },
+ {
+   "Food Product": "Fatty fish - bluefish, mackerel,",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "mullet, salmon, smelt, swordfish,",
+   "Refrigerator Storage": "",
+   "Freezer Storage": ""
+ },
+ {
+   "Food Product": "tuna",
+   "Refrigerator Storage": "",
+   "Freezer Storage": ""
+ },
+ {
+   "Food Product": "Cooked fish",
+   "Refrigerator Storage": "3-4 days",
+   "Freezer Storage": "4-6 months"
+ },
+ {
+   "Food Product": "Smoked fish, vacuum packaged",
+   "Refrigerator Storage": "14 days or date on package",
+   "Freezer Storage": "2 months"
+ },
+ {
+   "Food Product": "Surimi",
+   "Refrigerator Storage": "2 weeks",
+   "Freezer Storage": "9 months"
+ },
+ {
+   "Food Product": "Breaded fish",
+   "Refrigerator Storage": "Do not refrigerate",
+   "Freezer Storage": "3 months"
+ },
+ {
+   "Food Product": "Shrimp",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "3-6 months"
+ },
+ {
+   "Food Product": "Scallops",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "3-6 months"
+ },
+ {
+   "Food Product": "Crayfish",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "3-6 months"
+ },
+ {
+   "Food Product": "Squid",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "3-6 months"
+ },
+ {
+   "Food Product": "Clams",
+   "Refrigerator Storage": "2-3 days (live)",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Mussels",
+   "Refrigerator Storage": "2-3 days (live)",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Oysters",
+   "Refrigerator Storage": "2-3 days (live)",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Lobster",
+   "Refrigerator Storage": "1-2 days (live)",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Crab",
+   "Refrigerator Storage": "1-2 days (in shell)",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Cooked shellfish",
+   "Refrigerator Storage": "3-4 days",
+   "Freezer Storage": "3 months"
+ },
+ {
+   "Food Product": "Apples",
+   "Refrigerator Storage": "1 month",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Apricots",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Avocados",
+   "Refrigerator Storage": "5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Bananas",
+   "Refrigerator Storage": "5 days at room temperature",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Berries",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Cherries",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Cranberries",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Grapes",
+   "Refrigerator Storage": "5 days",
+   "Freezer Storage": "10-12 months"
+ },
+ {
+   "Food Product": "Guavas",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Kiwis",
+   "Refrigerator Storage": "6-8 days",
+   "Freezer Storage": "4-6 months"
+ },
+ {
+   "Food Product": "Lemons, limes, oranges, grapefruit",
+   "Refrigerator Storage": "2 weeks",
+   "Freezer Storage": "4-6 months"
+ },
+ {
+   "Food Product": "Mangos",
+   "Refrigerator Storage": "Ripen at room temperature",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Melons",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Nectarines",
+   "Refrigerator Storage": "5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Papayas",
+   "Refrigerator Storage": "Ripen at room temperature",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Peaches",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Pears",
+   "Refrigerator Storage": "5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Pineapples",
+   "Refrigerator Storage": "5-7 days",
+   "Freezer Storage": "4-6 months"
+ },
+ {
+   "Food Product": "Plantains",
+   "Refrigerator Storage": "Ripen at room temperature",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Plums",
+   "Refrigerator Storage": "5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Rhubarb",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Canned fruits",
+   "Refrigerator Storage": "2-4 days (opened)",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Frozen juice concentrate",
+   "Refrigerator Storage": "Do not refrigerate",
+   "Freezer Storage": "2 years"
+ },
+ {
+   "Food Product": "Frozen juice reconstituted",
+   "Refrigerator Storage": "6 days",
+   "Freezer Storage": "6-12 months"
+ },
+ {
+   "Food Product": "Artichokes",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Asparagus",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Beets",
+   "Refrigerator Storage": "2 weeks",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Broccoli",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Brussels sprouts",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Cabbage",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Carrots",
+   "Refrigerator Storage": "2 weeks",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Cauliflower",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Celery",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Corn, in husks",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Cucumbers",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Eggplant",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Green beans",
+   "Refrigerator Storage": "1-2 weeks",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Greens",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Jicama",
+   "Refrigerator Storage": "2-3 weeks",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Kohlrabi",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Lettuce and salad greens",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Lima beans",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Mushrooms",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Okra",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Onions, green",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Parsley",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "3-4 months"
+ },
+ {
+   "Food Product": "Peas",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Peppers",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Radishes",
+   "Refrigerator Storage": "2 weeks",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Squash, winter",
+   "Refrigerator Storage": "Store in a dry place",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Squash, summer",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Tomatillos",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Tomatoes",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Yuca",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Zucchini",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Frozen vegetables",
+   "Refrigerator Storage": "Do not refrigerate",
+   "Freezer Storage": "8 months"
+ },
+ {
+   "Food Product": "Canned vegetables",
+   "Refrigerator Storage": "1-4 days (opened)",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Bread, yeast",
+   "Refrigerator Storage": "Room temperature",
+   "Freezer Storage": "4-6 months"
+ },
+ {
+   "Food Product": "Biscuits",
+   "Refrigerator Storage": "Room temperature",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Muffins",
+   "Refrigerator Storage": "Room temperature",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Quick breads",
+   "Refrigerator Storage": "Room temperature",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Pancakes and waffles",
+   "Refrigerator Storage": "Room temperature",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Rolls, yeast",
+   "Refrigerator Storage": "Room temperature",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Refrigerated biscuits",
+   "Refrigerator Storage": "Use-by date",
+   "Freezer Storage": "Do not freeze"
+ },
+ {
+   "Food Product": "Angel",
+   "Refrigerator Storage": "1-3 days at room temperature",
+   "Freezer Storage": "2 months"
+ },
+ {
+   "Food Product": "Chiffon and sponge",
+   "Refrigerator Storage": "1-3 days at room temperature",
+   "Freezer Storage": "2 months"
+ },
+ {
+   "Food Product": "Cheesecake",
+   "Refrigerator Storage": "3-7 days",
+   "Freezer Storage": "2-3 months"
+ },
+ {
+   "Food Product": "Fruitcake",
+   "Refrigerator Storage": "6-8 months",
+   "Freezer Storage": "1 year"
+ },
+ {
+   "Food Product": "Pound",
+   "Refrigerator Storage": "3-5 days at room temperature",
+   "Freezer Storage": "6 months"
+ },
+ {
+   "Food Product": "Iced layer cake",
+   "Refrigerator Storage": "1-3 days at room temperature",
+   "Freezer Storage": "6 months"
+ },
+ {
+   "Food Product": "Baked cookies",
+   "Refrigerator Storage": "5-7 days at room temperature",
+   "Freezer Storage": "4-6 months"
+ },
+ {
+   "Food Product": "Unbaked cookie dough",
+   "Refrigerator Storage": "Use-by date",
+   "Freezer Storage": "2 months"
+ },
+ {
+   "Food Product": "Danish and doughnuts",
+   "Refrigerator Storage": "1-3 days at room temperature",
+   "Freezer Storage": "3 months"
+ },
+ {
+   "Food Product": "Chiffon pie",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "1 month"
+ },
+ {
+   "Food Product": "Fruit pie",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "1 year"
+ },
+ {
+   "Food Product": "Mincemeat pie",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "4-8 months"
+ },
+ {
+   "Food Product": "Pumpkin pie",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "1 month"
+ },
+ {
+   "Food Product": "Unbaked fruit pie",
+   "Refrigerator Storage": "Do not refrigerate",
+   "Freezer Storage": "8 months"
+ },
+ {
+   "Food Product": "Expressed breast milk",
+   "Refrigerator Storage": "3-5 days",
+   "Freezer Storage": "3 months"
+ },
+ {
+   "Food Product": "Formula mixed with water",
+   "Refrigerator Storage": "2 days",
+   "Freezer Storage": "DO NOT FREEZE"
+ },
+ {
+   "Food Product": "Strained fruits and vegetables",
+   "Refrigerator Storage": "2-3 days",
+   "Freezer Storage": "6-8 months"
+ },
+ {
+   "Food Product": "Strained meat and eggs",
+   "Refrigerator Storage": "1 day",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Strained meat and vegetable combination",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Homemade baby foods",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "1-2 months"
+ },
+ {
+   "Food Product": "Fresh Pasta",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "1 month"
+ },
+ {
+   "Food Product": "Mayonnaise",
+   "Refrigerator Storage": "2 months",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Nuts",
+   "Refrigerator Storage": "6 months",
+   "Freezer Storage": "1 year"
+ },
+ {
+   "Food Product": "Sandwiches",
+   "Refrigerator Storage": "1-2 days",
+   "Freezer Storage": "1 week"
+ },
+ {
+   "Food Product": "Tofu",
+   "Refrigerator Storage": "1 week",
+   "Freezer Storage": "1 month"
+ },
+ {
+   "Food Product": "Coffee and tea",
+   "Refrigerator Storage": "4-6 weeks",
+   "Freezer Storage": "1 year"
+ },
+ {
+   "Food Product": "Peanut butter",
+   "Refrigerator Storage": "6-8 months",
+   "Freezer Storage": "6-8 months"
+ },
+ {
+   "Food Product": "Catsup, chili, cocktail sauce",
+   "Refrigerator Storage": "6 months (opened)",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Mustard",
+   "Refrigerator Storage": "6-8 months",
+   "Freezer Storage": "8-12 months"
+ },
+ {
+   "Food Product": "Coconut, shredded, opened",
+   "Refrigerator Storage": "8 months",
+   "Freezer Storage": "1 year"
+ },
+ {
+   "Food Product": "Honey, jams, jellies, syrup",
+   "Refrigerator Storage": "6-8 months (opened)",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Bottled salad dressing",
+   "Refrigerator Storage": "3 months",
+   "Freezer Storage": "Freeze poorly"
+ },
+ {
+   "Food Product": "Vegetable shortening",
+   "Refrigerator Storage": "6-9 months",
+   "Freezer Storage": "Freeze poorly"
+ }
+]
