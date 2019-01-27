@@ -14,7 +14,7 @@ class VisionHandler {
     
     static let shared: VisionHandler = VisionHandler()
     
-    func detect(data: String, completion: @escaping () -> Void) { // Check only if the completion is true
+    func detect(data: String, completion: @escaping (String?) -> Void) { // Check only if the completion is true
         
         DispatchQueue.global(qos: .background).async {
             
@@ -67,7 +67,12 @@ class VisionHandler {
                             
                             FirebaseHandler.shared.sendToFirebase(data: highestLabel, { (success, error) in
                                 if success {
-                                    completion()
+                                    if let label = highestLabel["description"] as? String {
+                                        completion(label)
+                                    } else {
+                                        completion("failed")
+                                    }
+                                    
                                 } else {
                                     if let error = error {
                                         print("Error \(error)")

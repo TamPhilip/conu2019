@@ -15,16 +15,28 @@ class CheckController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.view.backgroundColor = UIColor.flatWhite()
         // Do any additional setup after loading the view.
         self.imageView.image = image
+        self.navigationItem.title = "Check"
     }
     
     @IBAction func runProcess(_ sender: Any) {
         guard let image = image else { return }
         guard let data = image.jpegData(compressionQuality: 1.0) else { return }
-        VisionHandler.shared.detect(data: data.base64EncodedString()) {
-            
+        VisionHandler.shared.detect(data: data.base64EncodedString()) { label in
+            self.presentAlert(label: label ?? "")
         }
     }
+
+    func presentAlert(label: String) {
+        let alert = UIAlertController(title: "Sent", message: "The item: \(label) has been added to your history!", preferredStyle: .alert)
+        let action = UIAlertAction(title: "Dismiss",style: .cancel, handler: { (_) in
+            
+        })
+        alert.addAction(action)
+        self.present(alert, animated: true, completion: nil)
+    }
+    
 
 }

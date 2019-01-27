@@ -38,11 +38,11 @@ class StartController: UIViewController {
         nav.navigationBar.layer.shadowOffset = CGSize(width: 0, height: 2.0)
         nav.navigationBar.layer.shadowRadius = 2
         
-        nav.navigationBar.barTintColor = UIColor(hexString: "FFE7FE")
+        nav.navigationBar.barTintColor = UIColor(hexString: "EAFABD")
         nav.navigationBar.tintColor = UIColor.black
         
         guard let font = UIFont(name: "Helvetica", size: 21) else {return}
-        let textAttributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.foregroundColor: UIColor(hexString: "FFE7FE"), NSAttributedString.Key.font: font as Any]
+        let textAttributes: [NSAttributedString.Key: Any] = [NSAttributedString.Key.foregroundColor: UIColor.black, NSAttributedString.Key.font: font as Any]
         nav.navigationBar.titleTextAttributes = textAttributes
         
         

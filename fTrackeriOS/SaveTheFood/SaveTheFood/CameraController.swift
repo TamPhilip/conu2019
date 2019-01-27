@@ -43,6 +43,7 @@ class CameraController: UIViewController {
         super.viewDidLoad()
         
         self.navigationController?.navigationBar.isHidden = false
+        self.navigationItem.title = "Camera"
         
         setupCaptureSession()
         
@@ -54,8 +55,10 @@ class CameraController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        
+        self.captureButton.backgroundColor = UIColor(hexString: "EAFABD")
         self.captureButton.layer.cornerRadius = self.captureButton.frame.height / 2
+        self.captureButton.layer.borderColor = UIColor(hexString: "CEFA99")?.cgColor
+        self.captureButton.layer.borderWidth = 1.2
         
         setupInputOutput()
         
@@ -228,7 +231,6 @@ extension  CameraController: AVCapturePhotoCaptureDelegate {
         if let error = error {
             print("Error while taking picture: \(error)")
             captureButton.isUserInteractionEnabled = false
-            presentProblem()
             return
         }
         
@@ -258,7 +260,7 @@ extension CameraController {
         let y = 1.0 - camView.frame.midX / screenSize.width
         let focusPoint = CGPoint(x: x, y: y)
         
-        focusOnPoint(device: device, focusPoint: focusPoint, midPoint: camView.center, createFrame: false)
+        focusOnPoint(device: device, focusPoint: focusPoint, midPoint: camView.center)
     }
    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
@@ -272,13 +274,13 @@ extension CameraController {
                     let y = 1.0 - touchPoint.location(in: camView).x / screenSize.width
                     
                     let focusPoint = CGPoint(x: x, y: y)
-                    focusOnPoint(device: device, focusPoint: focusPoint, midPoint: touchPoint.location(in: camView), createFrame: true)
+                    focusOnPoint(device: device, focusPoint: focusPoint, midPoint: touchPoint.location(in: camView))
                 }
             }
         }
     }
     
-    func focusOnPoint(device: AVCaptureDevice, focusPoint: CGPoint, midPoint: CGPoint, createFrame: Bool) {
+    func focusOnPoint(device: AVCaptureDevice, focusPoint: CGPoint, midPoint: CGPoint) {
         do {
             // Changes the focus point for the area
             try device.lockForConfiguration()
@@ -288,53 +290,8 @@ extension CameraController {
             device.exposurePointOfInterest = focusPoint
             device.exposureMode = AVCaptureDevice.ExposureMode.continuousAutoExposure
             device.unlockForConfiguration()
-            if createFrame {
-                self.createFrame(focusPoint: midPoint)
-            }
         } catch {
             // just ignore
         }
     }
-    
-    func createFrame(focusPoint: CGPoint) {
-        // The Frame
-        let frame = UIView(frame: CGRect(origin: focusPoint, size: CGSize(width: 60, height: 60)))
-        frame.layer.cornerRadius = 30
-        frame.center = focusPoint
-        frame.backgroundColor = UIColor.clear
-        frame.layer.borderColor = UIColor.white.cgColor
-        frame.layer.borderWidth = 1
-        
-        
-        // If the frame is frame is created remove the current one
-        if isCreated {
-            currentFrame?.removeFromSuperview()
-            isCreated = false
-        }
-        
-        // Creates a new frame
-        currentFrame = frame
-        isCreated = true
-        self.view.addSubview(currentFrame!)
-        self.view.bringSubviewToFront(currentFrame!)
-        
-        // Lets it stay on screen for 0.5 seconds then removes it
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            self.isCreated = false
-            frame.removeFromSuperview()
-        }
-    }
-}
-
-extension CameraController {
-    func presentProblem() {
-        // Create alert and close it after it has been shared
-        let alert = UIAlertController(title: NSLocalizedString("previewlayercontroller_alert_problemtitle", comment: ""), message: NSLocalizedString("previewlayercontroller_alert_problemlabel", comment: ""), preferredStyle: .alert)
-        let action = UIAlertAction(title: NSLocalizedString("dismiss", comment: ""), style: .cancel, handler: { (_) in
-   
-        })
-        alert.addAction(action)
-        self.present(alert, animated: true, completion: nil)
-    }
-    
 }

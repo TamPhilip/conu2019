@@ -4,7 +4,6 @@
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -76,12 +75,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kp5-um-MDW">
-                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kp5-um-MDW">
+                                <rect key="frame" x="-9" y="64" width="375" height="603"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Oj-C4-Y8o">
                                         <rect key="frame" x="162.5" y="513" width="50" height="50"/>
-                                        <color key="backgroundColor" red="1" green="0.90691736379999999" blue="0.99637223549999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <color key="backgroundColor" red="0.80784313725490198" green="0.98039215686274506" blue="0.59999999999999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="9Jb-iG-6Vv"/>
                                             <constraint firstAttribute="width" constant="50" id="Q6b-Gk-Rad"/>
@@ -130,6 +129,7 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fh8-Qd-q3t">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" red="0.91890849949999998" green="0.98084563020000004" blue="0.74044967939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             </imageView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OCV-lL-n4A">
                                 <rect key="frame" x="0.0" y="607" width="375" height="60"/>
@@ -139,13 +139,15 @@
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="Xs1-eM-nmw" secondAttribute="height" multiplier="23:15" id="r1F-Sg-UYb"/>
                                         </constraints>
-                                        <state key="normal" title="Button"/>
+                                        <state key="normal" title="Add">
+                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        </state>
                                         <connections>
                                             <action selector="runProcess:" destination="BcL-6t-pKL" eventType="touchUpInside" id="kGj-CP-Zp3"/>
                                         </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" red="0.91764705882352937" green="0.98039215686274506" blue="0.74117647058823533" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <constraints>
                                     <constraint firstItem="Xs1-eM-nmw" firstAttribute="top" secondItem="OCV-lL-n4A" secondAttribute="top" constant="10" id="59M-hq-8fw"/>
                                     <constraint firstAttribute="height" constant="60" id="LBL-ly-vam"/>
@@ -154,7 +156,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.91890849949999998" green="0.98084563020000004" blue="0.74044967939999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="OCV-lL-n4A" firstAttribute="leading" secondItem="hMm-zM-wb5" secondAttribute="leading" id="3Bp-fy-fva"/>
                             <constraint firstItem="fh8-Qd-q3t" firstAttribute="leading" secondItem="hMm-zM-wb5" secondAttribute="leading" id="IPr-0f-X7H"/>
