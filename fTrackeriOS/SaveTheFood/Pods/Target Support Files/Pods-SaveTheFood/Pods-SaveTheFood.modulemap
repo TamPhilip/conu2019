@@ -1,0 +1,6 @@
+framework module Pods_SaveTheFood {
+  umbrella header "Pods-SaveTheFood-umbrella.h"
+
+  export *
+  module * { export * }
+}

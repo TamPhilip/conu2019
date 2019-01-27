@@ -1,0 +1,6 @@
+framework module Pods_SaveTheFoodUITests {
+  umbrella header "Pods-SaveTheFoodUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
